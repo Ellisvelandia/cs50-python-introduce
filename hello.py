@@ -9,7 +9,11 @@ name = input("whats your name? ").strip().title()
 # name = name.capitalize()
 # name = name.title()
 
-print("welcome " + name + " your awesome and very smart")
+#split users name into first name and last name
+  
+first , last = name.split(" ")
+
+print("welcome " + first + " your awesome and very smart")
 
 age = input("what is your age? ")
 print(int(age) , str("your age is great"))
